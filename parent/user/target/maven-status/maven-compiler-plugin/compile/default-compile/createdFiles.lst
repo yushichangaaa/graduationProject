@@ -1,0 +1,15 @@
+com\ysc\config\properties\DataSourceProperties.class
+com\ysc\config\DataSourceConfig.class
+com\ysc\entity\UserExample$Criterion.class
+com\ysc\entity\UserExample$GeneratedCriteria.class
+com\ysc\util\Result.class
+META-INF\spring-configuration-metadata.json
+com\ysc\config\OriginConfig.class
+com\ysc\entity\UserExample.class
+com\ysc\config\TestConfig.class
+com\ysc\mapper\UserMapper.class
+com\ysc\entity\User.class
+com\ysc\controller\UserController.class
+com\ysc\service\UserService.class
+com\ysc\UserApp.class
+com\ysc\entity\UserExample$Criteria.class

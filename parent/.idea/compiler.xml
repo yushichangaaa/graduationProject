@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="user" />
+        <module name="eureka" />
+        <module name="rabbit" />
+        <module name="comment" />
+        <module name="order" />
+        <module name="template" />
+        <module name="master" />
+        <module name="jobSchedule" />
+        <module name="user2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="comment" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="jobSchedule" target="1.8" />
+      <module name="master" target="1.8" />
+      <module name="order" target="1.8" />
+      <module name="parent" target="1.8" />
+      <module name="rabbit" target="1.8" />
+      <module name="template" target="1.8" />
+      <module name="user" target="1.8" />
+      <module name="user2" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="comment" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="jobSchedule" options="-parameters" />
+      <module name="master" options="-parameters" />
+      <module name="order" options="-parameters" />
+      <module name="rabbit" options="-parameters" />
+      <module name="template" options="-parameters" />
+      <module name="user" options="-parameters" />
+      <module name="user2" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,38 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.ysc.config.properties.DataSourceProperties",
+      "name": "mysql",
+      "type": "com.ysc.config.properties.DataSourceProperties"
+    },
+    {
+      "sourceType": "com.ysc.config.DataSourceConfig",
+      "name": "mysql",
+      "sourceMethod": "public javax.sql.DataSource dataSource(com.ysc.config.properties.DataSourceProperties) ",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.ysc.config.properties.DataSourceProperties",
+      "name": "mysql.driver-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.ysc.config.properties.DataSourceProperties",
+      "name": "mysql.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.ysc.config.properties.DataSourceProperties",
+      "name": "mysql.url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.ysc.config.properties.DataSourceProperties",
+      "name": "mysql.username",
+      "type": "java.lang.String"
+    }
+  ]
+}

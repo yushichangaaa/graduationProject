@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ysc</groupId>
+  <artifactId>parent</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  
+  <properties>
+  	<maven.compiler.source>1.8</maven.compiler.source>
+  	<maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+  
+  <parent>
+  	<groupId>org.springframework.boot</groupId>
+  	<artifactId>spring-boot-starter-parent</artifactId>
+  	<version>2.0.6.RELEASE</version>
+  </parent>
+  
+  
+  
+  <dependencyManagement>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-dependencies</artifactId>
+			<version>Finchley.RELEASE</version>
+			<scope>import</scope>
+			<type>pom</type>
+		</dependency>
+	</dependencies>  
+  </dependencyManagement>
+  <dependencies>
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-web</artifactId>
+	</dependency>
+  </dependencies>
+  <modules>
+  	<module>eureka</module>
+  	<module>jobSchedule</module>
+  	<module>master</module>
+  	<module>order</module>
+  	<module>rabbit</module>
+  	<module>user</module>
+  	<module>template</module>
+  	<module>comment</module>
+  	<module>user2</module>
+  </modules>
+</project>

@@ -1,0 +1,28 @@
+server:
+  port: 8762
+  
+logging:  level:    root: info
+
+mybatis:
+  mapper-locations: classpath:/mybaits/mapper/*.xml
+ 
+
+
+
+mysql:
+  driverClassName: com.mysql.jdbc.Driver
+  url: jdbc:mysql://127.0.0.1:3306/graduation?useSSL=false
+  username: root
+  password: root
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/mongodb  application:    name: jobSchedule
+  datasource:    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/graduation?useUnicode=true&characterEncoding=utf8
+#    drvier-class-name: com.mysql.jdbc.Driver
+    
+eureka:  client:    service-url:      defaultZone: http://127.0.0.1:8761/eureka/
+#      
+  

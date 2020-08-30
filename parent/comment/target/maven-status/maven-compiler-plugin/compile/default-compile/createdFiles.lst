@@ -1,0 +1,15 @@
+com\ysc\service\CommentService.class
+com\ysc\config\properties\DataSourceProperties.class
+com\ysc\controller\CommentController.class
+com\ysc\entity\CommentExample$GeneratedCriteria.class
+com\ysc\config\DataSourceConfig.class
+com\ysc\entity\Comment.class
+com\ysc\util\Result.class
+com\ysc\CommentApp.class
+META-INF\spring-configuration-metadata.json
+com\ysc\entity\CommentExample$Criterion.class
+com\ysc\mapper\CommentMapper.class
+com\ysc\config\OriginConfig.class
+com\ysc\entity\Comment$ListNode.class
+com\ysc\entity\CommentExample$Criteria.class
+com\ysc\entity\CommentExample.class

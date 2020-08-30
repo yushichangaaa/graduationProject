@@ -1,0 +1,27 @@
+server:
+  port: 8766
+  
+spring:
+  application:
+    name: rabbit
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    
+    
+mybatis:
+  mapper-locations: classpath:/mybaits/mapper/*.xml
+  
+mysql:
+  driverClassName: com.mysql.jdbc.Driver
+  url: jdbc:mysql://127.0.0.1:3306/graduation?useSSL=false
+  username: root
+  password: root
+  
+  
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/

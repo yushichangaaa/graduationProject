@@ -1,0 +1,8 @@
+com\ysc\config\OriginConfig.class
+com\ysc\entity\MyId.class
+com\ysc\util\Result.class
+com\ysc\controller\OrderController.class
+com\ysc\OrderApp.class
+com\ysc\resposity\OrderRespository.class
+com\ysc\entity\Food2.class
+com\ysc\entity\Order.class

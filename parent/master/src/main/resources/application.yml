@@ -1,0 +1,19 @@
+server:
+  port: 8763
+  
+spring:
+  application:
+    name: master
+
+  
+mybatis:
+  mapper-locations: classpath:/mybaits/mapper/*.xml
+  
+mysql:
+  driverClassName: com.mysql.jdbc.Driver
+  url: jdbc:mysql://127.0.0.1:3306/graduation?useSSL=false
+  username: root
+  password: root
+  
+  
+eureka:  client:    service-url:      defaultZone: http://127.0.0.1:8761/eureka/
